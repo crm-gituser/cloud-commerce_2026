@@ -159,7 +159,6 @@ import { B2BCheckoutModule } from '@spartacus/checkout/b2b/root';
     OrganizationUnitOrderFeatureModule,
     ProductFutureStockFeatureModule,
     ProductConfiguratorFeatureModule,
-
     B2BCheckoutModule,
   ],
   providers: [
