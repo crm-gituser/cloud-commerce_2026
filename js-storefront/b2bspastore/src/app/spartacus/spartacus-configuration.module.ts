@@ -14,6 +14,7 @@ import {
   layoutConfigFactory,
   mediaConfig,
 } from '@spartacus/storefront';
+import { OAuthFlow } from '@spartacus/core';
 
 @NgModule({
   declarations: [],
@@ -48,6 +49,13 @@ import {
       },
     }),
     provideConfig(defaultB2bOccConfig),
+
+    provideConfig({
+      authentication: {
+        OAuthFlow: OAuthFlow.ResourceOwnerPasswordFlow,
+      },
+    }),
+
   ],
 })
 export class SpartacusConfigurationModule {}
