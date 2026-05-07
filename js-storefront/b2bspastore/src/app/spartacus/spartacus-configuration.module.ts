@@ -14,7 +14,6 @@ import {
   layoutConfigFactory,
   mediaConfig,
 } from '@spartacus/storefront';
-import { AuthConfig, OAuthFlow } from '@spartacus/core';
 
 @NgModule({
   declarations: [],
@@ -50,10 +49,14 @@ import { AuthConfig, OAuthFlow } from '@spartacus/core';
     }),
     provideConfig(defaultB2bOccConfig),
 
-
-    provideConfig(<AuthConfig>{
+    provideConfig({
       authentication: {
-        OAuthFlow: OAuthFlow.ResourceOwnerPasswordFlow,
+        client_id: 'mobile_android',
+        client_secret: 'secret',
+        OAuthLibConfig: {
+          responseType: '',
+        },
+        customLoginPage: undefined,
       },
     }),
 
