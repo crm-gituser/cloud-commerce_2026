@@ -3,7 +3,13 @@
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",
-        "mediaconversionbackoffice"
+        "mediaconversionbackoffice",
+        "sapcpiadapter",
+        "odata2services",
+        "odata2webservices",
+        "integrationbackoffice",
+        "inboundservices",
+        "outboundservices"
     ],
     "storefrontAddons": [
         {
