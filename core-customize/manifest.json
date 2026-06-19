@@ -10,7 +10,7 @@
     "extensions": [
         "cloudmediaconversion",
         "mediaconversionbackoffice",
-        "sapcpiadapter",
+        "sapcpiadapter"
     ],
     "storefrontAddons": [
         {
