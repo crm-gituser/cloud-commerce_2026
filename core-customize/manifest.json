@@ -1,15 +1,16 @@
 {
     "commerceSuiteVersion": "2211.51",
     "enableImageProcessingService": true,
+    "extensionPacks": [
+      {
+        "name": "hybris-commerce-integrations",
+        "version": "2211.42"
+      }  
+    ],
     "extensions": [
         "cloudmediaconversion",
         "mediaconversionbackoffice",
         "sapcpiadapter",
-        "odata2services",
-        "odata2webservices",
-        "integrationbackoffice",
-        "inboundservices",
-        "outboundservices"
     ],
     "storefrontAddons": [
         {
