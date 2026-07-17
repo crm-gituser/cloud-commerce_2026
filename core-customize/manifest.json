@@ -279,6 +279,7 @@
                 },
                 {
                     "name": "odata2webservices"
+                    "contextPath": "/odata2webservices"
                 },
                 {
                     "name": "orbeonweb",
