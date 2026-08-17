@@ -152,7 +152,7 @@ import { ProductConfiguratorFeatureModule } from './features/product-configurato
       a11yKeyboardAccessibleZoom: true,
       a11yPreventCartItemsFormRedundantRecreation: true,
       a11yStoreFinderLabel: true,
-      a11yImprovedErrorMessage: true,
+//      a11yImprovedErrorMessage: true,
       a11yLinkBtnsToTertiaryBtns: true,
       a11yAddPaddingToCarouselPanel: true,
       a11yWideScreenImprovements: true,
