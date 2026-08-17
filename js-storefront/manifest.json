@@ -10,7 +10,7 @@
       "csr": {
         "webroot": "dist/spartacusstore/browser/"
       },
-      "enabledRepositories": ["spartacus-dev"]
+      "enabledRepositories": ["spartacus-6-cdn"]
     },
     {
       "name": "b2bspastore",
