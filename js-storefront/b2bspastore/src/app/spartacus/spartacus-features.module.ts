@@ -166,7 +166,7 @@ import { CheckoutB2BRootModule } from '@spartacus/checkout/b2b/root';
       a11yKeyboardAccessibleZoom: true,
       a11yPreventCartItemsFormRedundantRecreation: true,
       a11yStoreFinderLabel: true,
-      a11yImprovedErrorMessage: true,
+//      a11yImprovedErrorMessage: true,
       a11yLinkBtnsToTertiaryBtns: true,
       a11yAddPaddingToCarouselPanel: true,
       a11yWideScreenImprovements: true,
