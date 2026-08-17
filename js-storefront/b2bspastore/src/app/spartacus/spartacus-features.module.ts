@@ -163,10 +163,10 @@ import { CheckoutB2BRootModule } from '@spartacus/checkout/b2b/root';
   ],
   providers: [
     provideFeatureToggles({
-      a11yKeyboardAccessibleZoom: true,
+/*      a11yKeyboardAccessibleZoom: true,
       a11yPreventCartItemsFormRedundantRecreation: true,
       a11yStoreFinderLabel: true,
-//      a11yImprovedErrorMessage: true,
+      a11yImprovedErrorMessage: true,
       a11yLinkBtnsToTertiaryBtns: true,
       a11yAddPaddingToCarouselPanel: true,
       a11yWideScreenImprovements: true,
@@ -203,7 +203,7 @@ import { CheckoutB2BRootModule } from '@spartacus/checkout/b2b/root';
       a11yCustomerTicketingVisualFocusFix: true,
       removeDuplicatedOrderHistoryHeader: true,
       a11yCardNotificationMessage: true,
-    }),
+*/    }),
   ],
 })
 export class SpartacusFeaturesModule {}
