@@ -546,6 +546,10 @@
                 {
                     "name": "resourceserver",
                     "contextPath": "/resourceserver"
+                },
+                {
+                    "name": "odata2webservices",
+                    "contextPath": "/odata2webservices"
                 }
             ]
         },
