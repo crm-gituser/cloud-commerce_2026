@@ -278,7 +278,8 @@
                     "contextPath": "/permissionswebservices"
                 },
                 {
-                    "name": "odata2webservices"
+                    "name": "odata2webservices",
+                    "contextPath": "/odata2webservices"
                 },
                 {
                     "name": "orbeonweb",
